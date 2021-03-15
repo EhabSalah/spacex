@@ -1,0 +1,26 @@
+name: data
+description: Data layer for SpaceX app.
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  domain:
+    path: ../domain
+
+  dio:
+  retrofit:
+  json_annotation:
+  freezed:
+  get_it: ^5.0.3
+  injectable:
+
+dev_dependencies:
+  effective_dart:
+  build_runner:
+  json_serializable:
+  retrofit_generator:
+  injectable_generator:
+

@@ -1,0 +1,10 @@
+/build/
+.dart_tool/
+.packages
+pubspec.lock
+*.freezed.dart
+*.gr.dart
+
+# IntelliJ related
+.idea/
+

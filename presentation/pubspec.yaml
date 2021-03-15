@@ -1,0 +1,67 @@
+name: presentation
+description: SpaceX presentation layer.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  flutter_launcher_icons: ^0.8.1
+  hooks_riverpod:
+  flutter_hooks:
+  get_it:
+  auto_route:
+  flutter_spinkit:
+  cached_network_image: ^2.3.3
+  flutter_native_image:
+
+  data:
+    path: ../data
+
+  domain:
+    path: ../domain
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  effective_dart:
+  auto_route_generator:
+  build_runner:
+  flutter_gen_runner:
+  flutter_native_splash: ^0.3.0
+  flushbar: ^1.10.4
+  pull_to_refresh: 1.6.3
+  date_range_picker: ^1.0.5
+  url_launcher:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: AppIcons
+      fonts:
+        - asset: assets/icons/Appicons.ttf
+
+    - family: Almerai
+      fonts:
+        - asset: assets/fonts/almerai/Almarai-Light.ttf
+          weight: 300
+        - asset: assets/fonts/almerai/Almarai-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/almerai/Almarai-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/almerai/Almarai-ExtraBold.ttf
+          weight: 800
+
+

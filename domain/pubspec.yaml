@@ -1,0 +1,20 @@
+name: domain
+description: Domain layer for SpaceX app.
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  data:
+    path: ../data
+
+  enum_to_string:
+  freezed:
+  dio:
+
+
+dev_dependencies:
+  build_runner:
